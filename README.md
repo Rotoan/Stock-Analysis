@@ -4,3 +4,4 @@
 2 Created a .xlsm file for the stock data and created a test macro within this.<br>
 3 Created labels in output worksheet DQ<br>
 4 Created DQ trade volume loop for 2018<br>
+5 Cleaned up readme with line breaks <br>
