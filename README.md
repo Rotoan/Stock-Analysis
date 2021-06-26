@@ -8,7 +8,7 @@
 6 changed endRow to calculate the last row with data, rather than using hardcoding<br>
 7 created loop to gather start and end stock price of DQ, then output as yearly price change<br>
 8 created subroutine AllStockAnalysis, created column headers as well as stored tickers in both an array and
-within a for loop
+within a for loop<br>
 9 Code stopped working when I tried to nest two loops within AllStockAnalysis(), struggled to fix this until office hours
-and only then uploaded.
-10 wrote formatting subroutine, fixed it
+and only then uploaded.<br>
+10 wrote formatting subroutine, fixed it<br>
