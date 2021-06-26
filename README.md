@@ -12,3 +12,4 @@ within a for loop<br>
 9 Code stopped working when I tried to nest two loops within AllStockAnalysis(), struggled to fix this until office hours
 and only then uploaded.<br>
 10 wrote formatting subroutine, fixed it<br>
+11 created buttons for analyze, format, and clear macros and changed year to an input across functions
