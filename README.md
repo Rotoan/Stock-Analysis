@@ -10,5 +10,5 @@
 8 created subroutine AllStockAnalysis, created column headers as well as stored tickers in both an array and
 within a for loop
 9 Code stopped working when I tried to nest two loops within AllStockAnalysis(), struggled to fix this until office hours
-and only then uploaded.
+and only then uploaded.<br>
 10 wrote formatting subroutine, fixed it
