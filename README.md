@@ -1,15 +1,20 @@
-# Stock-Analysis
+### VBA stock analysis challenge
+( ˇ෴ˇ )
 
-1 Hi-ho-Hi-ho, it's off to work I go! I can't be late, I really shouldn't procrastinate, Hi-ho-Hi-ho-Hi-ho.<br>
-2 Created a .xlsm file for the stock data and created a test macro within this.<br>
-3 Created labels in output worksheet DQ<br>
-4 Created DQ trade volume loop for 2018<br>
-5 Cleaned up Readme with line breaks<br>
-6 changed endRow to calculate the last row with data, rather than using hardcoding<br>
-7 created loop to gather start and end stock price of DQ, then output as yearly price change<br>
-8 created subroutine AllStockAnalysis, created column headers as well as stored tickers in both an array and
-within a for loop<br>
-9 Code stopped working when I tried to nest two loops within AllStockAnalysis(), struggled to fix this until office hours
-and only then uploaded.<br>
-10 wrote formatting subroutine, fixed it<br>
-11 created buttons for analyze, format, and clear macros and changed year to an input across functions
+#Purpose
+	This project was intended to use VBA and excel to analyze two years of stock data and use this to assist
+a pair of amateur investors with stock purchasing decisions. In this scenario, the first impulse of the investors was
+to invest in a particular stock "DQ" essentially at random. Our goal is to improve hypothetical returns over this. Further
+our intention was to do this efficiently with code in VBA.
+
+##Results
+	In our analysis, 2017 had across the board better stock returns than 2018. In [2018](/resources/output2018.png) few stocks in our data had positive
+returns, the exceptions being [ENPH](https://www.nasdaq.com/market-activity/stocks/enph) and [RUN](https://www.nasdaq.com/market-activity/stocks/run).
+Between the two, RUN had a very slightly higher yearly return of 84 to 82 percent. On the secondary objective of achieving an efficient run time,
+run times reduced from about one fifth of a second to [about one tenth](/resources/2018.png) of a [second](/resources/2017.png).
+
+##Summary
+	refactoring code was advantageous in making algorithms more efficient, obtaining a 50% run time reduction in this case! It took several hours though,
+and the time savings were still limited to less than a second of run time. More generally refactoring is helpful in managing memory usage and can make run times
+so short as to be unnoticeable. On the other hand it takes subtantial amounts of time to refactor code.
+
